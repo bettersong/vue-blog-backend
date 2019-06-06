@@ -1,0 +1,2231 @@
+[ 2019-06-04T18:36:19+08:00 ] ::1 /MyApp/blogBackend/Home/Index/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.093406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019383s ]
+SQL: SHOW COLUMNS FROM `broken` [ RunTime:0.9080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `broken` LIMIT 1   [ RunTime:0.0507s ]
+SQL: SHOW COLUMNS FROM `wenzhang` [ RunTime:0.1816s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenzhang` WHERE ( bigclass="前端开发" ) LIMIT 1   [ RunTime:0.3947s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenzhang` WHERE ( bigclass="全栈开发" ) LIMIT 1   [ RunTime:0.0160s ]
+SQL: SHOW COLUMNS FROM `mood` [ RunTime:0.0788s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mood` LIMIT 1   [ RunTime:0.0150s ]
+
+[ 2019-06-04T18:36:20+08:00 ] ::1 /MyApp/blogBackend/Home/Admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000528s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.025045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.025109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.279619s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.279675s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.027922s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.027959s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.024255s ]
+INFO: [ app_end ] --END-- [ RunTime:0.024290s ]
+
+[ 2019-06-04T18:36:36+08:00 ] ::1 /MyApp/blogBackend/Home/Admin/setLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001705s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.1783s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0235s ]
+SQL: SELECT * FROM `admin` WHERE ( user='宋瑶' AND password = '123456' ) LIMIT 1   [ RunTime:0.0110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013113s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013180s ]
+
+[ 2019-06-04T18:36:37+08:00 ] ::1 /MyApp/blogBackend/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000486s ]
+SQL: SHOW COLUMNS FROM `broken` [ RunTime:0.0975s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `broken` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `wenzhang` [ RunTime:0.0327s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenzhang` WHERE ( bigclass="前端开发" ) LIMIT 1   [ RunTime:0.0128s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenzhang` WHERE ( bigclass="全栈开发" ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `mood` [ RunTime:0.0571s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mood` LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.320581s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.320622s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002215s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002239s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.022541s ]
+INFO: [ app_end ] --END-- [ RunTime:0.022598s ]
+
+[ 2019-06-04T19:03:25+08:00 ] ::1 /MyApp/blogBackend/Home/AboutBlog/showInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000530s ]
+SQL: SHOW COLUMNS FROM `aboutblog` [ RunTime:0.2765s ]
+SQL: SELECT * FROM `aboutblog` LIMIT 1   [ RunTime:0.0493s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000700s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000734s ]
+
+[ 2019-06-04T19:03:27+08:00 ] ::1 /MyApp/blogBackend/Home/Broken/showBroken
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000656s ]
+SQL: SHOW COLUMNS FROM `broken` [ RunTime:0.1434s ]
+SQL: SELECT * FROM `broken` ORDER BY time desc  [ RunTime:0.0682s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000476s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000502s ]
+
+[ 2019-06-04T19:21:19+08:00 ] ::1 /MyApp/blogBackend/Home/MoodManage/showMood8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001118s ]
+SQL: SHOW COLUMNS FROM `mood` [ RunTime:0.1047s ]
+SQL: SELECT * FROM `mood` ORDER BY id desc LIMIT 8   [ RunTime:0.0454s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000567s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000594s ]
+
+[ 2019-06-04T19:21:42+08:00 ] ::1 /MyApp/blogBackend/Home/AboutBlog/showInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000416s ]
+SQL: SHOW COLUMNS FROM `aboutblog` [ RunTime:0.2256s ]
+SQL: SELECT * FROM `aboutblog` LIMIT 1   [ RunTime:0.0123s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000485s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000511s ]
+
+[ 2019-06-04T19:21:43+08:00 ] ::1 /MyApp/blogBackend/Home/Broken/showBroken
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000659s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000627s ]
+SQL: SHOW COLUMNS FROM `broken` [ RunTime:0.0716s ]
+SQL: SELECT * FROM `broken` ORDER BY time desc  [ RunTime:0.0037s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000452s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000477s ]
+
+[ 2019-06-04T19:21:54+08:00 ] ::1 /MyApp/blogBackend/Home/MoodManage/showMood8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000436s ]
+SQL: SHOW COLUMNS FROM `mood` [ RunTime:0.0968s ]
+SQL: SELECT * FROM `mood` ORDER BY id desc LIMIT 8   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000552s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000582s ]
+
+[ 2019-06-04T22:29:08+08:00 ] ::1 /MyApp/blogBackend/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.104335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.041601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.041651s ]
+SQL: SHOW COLUMNS FROM `broken` [ RunTime:1.3372s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `broken` LIMIT 1   [ RunTime:0.1645s ]
+SQL: SHOW COLUMNS FROM `wenzhang` [ RunTime:0.1245s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenzhang` WHERE ( bigclass="前端开发" ) LIMIT 1   [ RunTime:0.2647s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenzhang` WHERE ( bigclass="全栈开发" ) LIMIT 1   [ RunTime:0.0079s ]
+SQL: SHOW COLUMNS FROM `mood` [ RunTime:0.1160s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mood` LIMIT 1   [ RunTime:0.0302s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.031326s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.031380s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.717599s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.717801s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.035296s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.035355s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.112406s ]
+INFO: [ app_end ] --END-- [ RunTime:0.112542s ]
+
+[ 2019-06-04T22:29:23+08:00 ] ::1 /MyApp/blogBackend/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000515s ]
+SQL: SHOW COLUMNS FROM `broken` [ RunTime:0.1327s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `broken` LIMIT 1   [ RunTime:0.0135s ]
+SQL: SHOW COLUMNS FROM `wenzhang` [ RunTime:0.0112s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenzhang` WHERE ( bigclass="前端开发" ) LIMIT 1   [ RunTime:0.0379s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenzhang` WHERE ( bigclass="全栈开发" ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `mood` [ RunTime:0.0094s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mood` LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069127s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069171s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000610s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000653s ]
+
+[ 2019-06-04T22:29:26+08:00 ] ::1 /MyApp/blogBackend/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000572s ]
+SQL: SHOW COLUMNS FROM `broken` [ RunTime:0.0857s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `broken` LIMIT 1   [ RunTime:0.0087s ]
+SQL: SHOW COLUMNS FROM `wenzhang` [ RunTime:0.0403s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenzhang` WHERE ( bigclass="前端开发" ) LIMIT 1   [ RunTime:0.0360s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenzhang` WHERE ( bigclass="全栈开发" ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `mood` [ RunTime:0.0164s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mood` LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000172s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000237s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031640s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031744s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000972s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001070s ]
+
+[ 2019-06-04T22:30:01+08:00 ] ::1 /MyApp/blogBackend/Home/FrontEnd/index?type=html5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016962s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017018s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000738s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000802s ]
+
+[ 2019-06-04T22:30:06+08:00 ] ::1 /MyApp/blogBackend/Home/AboutBlog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000421s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067382s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067505s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001125s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001180s ]
+
+[ 2019-06-04T22:30:15+08:00 ] ::1 /MyApp/blogBackend/Home/Broken/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000846s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000395s ]
+SQL: SHOW COLUMNS FROM `broken` [ RunTime:0.1983s ]
+SQL: SELECT * FROM `broken`  [ RunTime:0.0677s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.186992s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.187056s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000632s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000693s ]
+
+[ 2019-06-04T22:30:16+08:00 ] ::1 /MyApp/blogBackend/Home/Broken/%E6%97%A0%E6%95%B0%E6%8D%AE?_=1559658616475
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000613s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001169s ]
+ERR: 非法操作:无数据
+
+[ 2019-06-04T22:30:23+08:00 ] ::1 /MyApp/blogBackend/Home/Broken/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000600s ]
+SQL: SHOW COLUMNS FROM `broken` [ RunTime:0.1407s ]
+SQL: SELECT * FROM `broken`  [ RunTime:0.0496s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008017s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008065s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000579s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000634s ]
+
+[ 2019-06-04T22:30:23+08:00 ] ::1 /MyApp/blogBackend/Home/Broken/%E6%97%A0%E6%95%B0%E6%8D%AE?_=1559658623666
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000735s ]
+ERR: 非法操作:无数据
+
+[ 2019-06-04T22:30:25+08:00 ] ::1 /MyApp/blogBackend/Home/Broken/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000418s ]
+SQL: SHOW COLUMNS FROM `broken` [ RunTime:0.1533s ]
+SQL: SELECT * FROM `broken`  [ RunTime:0.0178s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008078s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008116s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000551s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000586s ]
+
+[ 2019-06-04T22:30:25+08:00 ] ::1 /MyApp/blogBackend/Home/Broken/%E6%97%A0%E6%95%B0%E6%8D%AE?_=1559658625735
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000450s ]
+ERR: 非法操作:无数据
+
+[ 2019-06-04T22:30:28+08:00 ] ::1 /MyApp/blogBackend/Home/MoodManage/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+SQL: SHOW COLUMNS FROM `mood` [ RunTime:0.1242s ]
+SQL: SELECT * FROM `mood`  [ RunTime:0.0477s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051474s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051525s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000667s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000901s ]
+
+[ 2019-06-04T22:30:29+08:00 ] ::1 /MyApp/blogBackend/Home/MoodManage/%E6%97%A0%E6%95%B0%E6%8D%AE?_=1559658629178
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000699s ]
+ERR: 非法操作:无数据
+
+[ 2019-06-04T22:30:48+08:00 ] ::1 /MyApp/blogBackend/Home/Broken/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000625s ]
+SQL: SHOW COLUMNS FROM `broken` [ RunTime:0.1389s ]
+SQL: SELECT * FROM `broken`  [ RunTime:0.0275s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010519s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010565s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000637s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000706s ]
+
+[ 2019-06-04T22:30:49+08:00 ] ::1 /MyApp/blogBackend/Home/Broken/%E6%97%A0%E6%95%B0%E6%8D%AE?_=1559658648995
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000773s ]
+ERR: 非法操作:无数据
+
+[ 2019-06-04T22:30:53+08:00 ] ::1 /MyApp/blogBackend/Home/Manage/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000347s ]
+NOTIC: [8] Undefined index: type F:\phpDemo\MyApp\blogBackend\Application\Home\Controller\ManageController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `wenzhang` [ RunTime:0.1775s ]
+SQL: SELECT `id`,`title`,`bigclass`,`smclass`,`time`,`see`,`zan` FROM `wenzhang`  [ RunTime:0.0383s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+NOTIC: [8] Undefined index: type F:\phpDemo\MyApp\blogBackend\Application\Runtime\Cache\Home\d8a0e8853bd242b1645d6a28cb083b55.php 第 139 行.
+NOTIC: [8] Undefined index: type F:\phpDemo\MyApp\blogBackend\Application\Runtime\Cache\Home\d8a0e8853bd242b1645d6a28cb083b55.php 第 139 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059143s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059184s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000540s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000576s ]
+
+[ 2019-06-04T22:30:53+08:00 ] ::1 /MyApp/blogBackend/Home/Manage/%E6%97%A0%E6%95%B0%E6%8D%AE?_=1559658653652
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000660s ]
+ERR: 非法操作:无数据
+
+[ 2019-06-04T22:31:33+08:00 ] ::1 /MyApp/blogBackend/Home/Manage/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.028639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.028689s ]
+NOTIC: [8] Undefined index: type F:\phpDemo\MyApp\blogBackend\Application\Home\Controller\ManageController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `wenzhang` [ RunTime:0.1237s ]
+SQL: SELECT `id`,`title`,`bigclass`,`smclass`,`time`,`see`,`zan` FROM `wenzhang`  [ RunTime:0.0141s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+NOTIC: [8] Undefined index: type F:\phpDemo\MyApp\blogBackend\Application\Runtime\Cache\Home\d8a0e8853bd242b1645d6a28cb083b55.php 第 139 行.
+NOTIC: [8] Undefined index: type F:\phpDemo\MyApp\blogBackend\Application\Runtime\Cache\Home\d8a0e8853bd242b1645d6a28cb083b55.php 第 139 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014751s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014798s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000942s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001004s ]
+
+[ 2019-06-04T22:31:33+08:00 ] ::1 /MyApp/blogBackend/Home/Manage/%E6%97%A0%E6%95%B0%E6%8D%AE?_=1559658693923
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000792s ]
+ERR: 非法操作:无数据
+
+[ 2019-06-04T22:31:36+08:00 ] ::1 /MyApp/blogBackend/Home/Manage/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000577s ]
+NOTIC: [8] Undefined index: type F:\phpDemo\MyApp\blogBackend\Application\Home\Controller\ManageController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `wenzhang` [ RunTime:0.0960s ]
+SQL: SELECT `id`,`title`,`bigclass`,`smclass`,`time`,`see`,`zan` FROM `wenzhang`  [ RunTime:0.0129s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+NOTIC: [8] Undefined index: type F:\phpDemo\MyApp\blogBackend\Application\Runtime\Cache\Home\d8a0e8853bd242b1645d6a28cb083b55.php 第 139 行.
+NOTIC: [8] Undefined index: type F:\phpDemo\MyApp\blogBackend\Application\Runtime\Cache\Home\d8a0e8853bd242b1645d6a28cb083b55.php 第 139 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008398s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008434s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000562s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000611s ]
+
+[ 2019-06-04T22:31:36+08:00 ] ::1 /MyApp/blogBackend/Home/Manage/%E6%97%A0%E6%95%B0%E6%8D%AE?_=1559658696916
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+ERR: 非法操作:无数据
+
+[ 2019-06-04T22:31:44+08:00 ] ::1 /MyApp/blogBackend/Home/Manage/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000652s ]
+NOTIC: [8] Undefined index: type F:\phpDemo\MyApp\blogBackend\Application\Home\Controller\ManageController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `wenzhang` [ RunTime:0.1262s ]
+SQL: SELECT `id`,`title`,`bigclass`,`smclass`,`time`,`see`,`zan` FROM `wenzhang`  [ RunTime:0.0145s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+NOTIC: [8] Undefined index: type F:\phpDemo\MyApp\blogBackend\Application\Runtime\Cache\Home\d8a0e8853bd242b1645d6a28cb083b55.php 第 139 行.
+NOTIC: [8] Undefined index: type F:\phpDemo\MyApp\blogBackend\Application\Runtime\Cache\Home\d8a0e8853bd242b1645d6a28cb083b55.php 第 139 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.120958s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.120988s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000669s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000729s ]
+
+[ 2019-06-04T22:31:44+08:00 ] ::1 /MyApp/blogBackend/Home/Manage/%E6%97%A0%E6%95%B0%E6%8D%AE?_=1559658704533
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000728s ]
+ERR: 非法操作:无数据
+
+[ 2019-06-04T22:31:45+08:00 ] ::1 /MyApp/blogBackend/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+SQL: SHOW COLUMNS FROM `broken` [ RunTime:0.0853s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `broken` LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `wenzhang` [ RunTime:0.0531s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenzhang` WHERE ( bigclass="前端开发" ) LIMIT 1   [ RunTime:0.0101s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenzhang` WHERE ( bigclass="全栈开发" ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `mood` [ RunTime:0.0260s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mood` LIMIT 1   [ RunTime:0.0157s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000193s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015634s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015720s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000822s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000874s ]
+
+[ 2019-06-04T22:31:50+08:00 ] ::1 /MyApp/blogBackend/Home/MoodManage/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000737s ]
+SQL: SHOW COLUMNS FROM `mood` [ RunTime:0.1281s ]
+SQL: SELECT * FROM `mood`  [ RunTime:0.0045s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000191s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000270s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020074s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020203s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000726s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000777s ]
+
+[ 2019-06-04T22:31:50+08:00 ] ::1 /MyApp/blogBackend/Home/MoodManage/%E6%97%A0%E6%95%B0%E6%8D%AE?_=1559658710867
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000601s ]
+ERR: 非法操作:无数据
+
+[ 2019-06-04T22:32:36+08:00 ] ::1 /MyApp/blogBackend/Home/Mood/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000753s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015301s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015342s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000511s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000548s ]
+
+[ 2019-06-04T22:32:42+08:00 ] ::1 /MyApp/blogBackend/Home/Manage/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000449s ]
+NOTIC: [8] Undefined index: type F:\phpDemo\MyApp\blogBackend\Application\Home\Controller\ManageController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `wenzhang` [ RunTime:0.1049s ]
+SQL: SELECT `id`,`title`,`bigclass`,`smclass`,`time`,`see`,`zan` FROM `wenzhang`  [ RunTime:0.0145s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+NOTIC: [8] Undefined index: type F:\phpDemo\MyApp\blogBackend\Application\Runtime\Cache\Home\d8a0e8853bd242b1645d6a28cb083b55.php 第 139 行.
+NOTIC: [8] Undefined index: type F:\phpDemo\MyApp\blogBackend\Application\Runtime\Cache\Home\d8a0e8853bd242b1645d6a28cb083b55.php 第 139 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007678s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007714s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000232s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000750s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000804s ]
+
+[ 2019-06-04T22:32:42+08:00 ] ::1 /MyApp/blogBackend/Home/Manage/%E6%97%A0%E6%95%B0%E6%8D%AE?_=1559658762649
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000735s ]
+ERR: 非法操作:无数据
+
+[ 2019-06-04T22:32:58+08:00 ] ::1 /MyApp/blogBackend/Home/Admin/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000383s ]
+
+[ 2019-06-04T22:32:59+08:00 ] ::1 /MyApp/blogBackend/Home/Admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000724s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018709s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018758s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000608s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000678s ]
+
+[ 2019-06-04T22:33:01+08:00 ] ::1 /MyApp/blogBackend/Home/Admin/setLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000358s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.4553s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `admin` WHERE ( user='宋瑶' AND password = '123456' ) LIMIT 1   [ RunTime:0.0375s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000513s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000549s ]
+
+[ 2019-06-04T22:33:02+08:00 ] ::1 /MyApp/blogBackend/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000346s ]
+SQL: SHOW COLUMNS FROM `broken` [ RunTime:0.2034s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `broken` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `wenzhang` [ RunTime:0.0130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenzhang` WHERE ( bigclass="前端开发" ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenzhang` WHERE ( bigclass="全栈开发" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `mood` [ RunTime:0.0141s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mood` LIMIT 1   [ RunTime:0.0626s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007580s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000589s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000637s ]
+
+[ 2019-06-04T22:33:04+08:00 ] ::1 /MyApp/blogBackend/Home/MoodManage/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000531s ]
+SQL: SHOW COLUMNS FROM `mood` [ RunTime:0.0615s ]
+SQL: SELECT * FROM `mood`  [ RunTime:0.0122s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000195s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000255s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026503s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026628s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001155s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001253s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000920s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000995s ]
+
+[ 2019-06-04T22:33:04+08:00 ] ::1 /MyApp/blogBackend/Home/MoodManage/%E6%97%A0%E6%95%B0%E6%8D%AE?_=1559658784656
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000663s ]
+ERR: 非法操作:无数据
+
+[ 2019-06-04T22:33:06+08:00 ] ::1 /MyApp/blogBackend/Home/Manage/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+NOTIC: [8] Undefined index: type F:\phpDemo\MyApp\blogBackend\Application\Home\Controller\ManageController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `wenzhang` [ RunTime:0.0703s ]
+SQL: SELECT `id`,`title`,`bigclass`,`smclass`,`time`,`see`,`zan` FROM `wenzhang`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+NOTIC: [8] Undefined index: type F:\phpDemo\MyApp\blogBackend\Application\Runtime\Cache\Home\d8a0e8853bd242b1645d6a28cb083b55.php 第 139 行.
+NOTIC: [8] Undefined index: type F:\phpDemo\MyApp\blogBackend\Application\Runtime\Cache\Home\d8a0e8853bd242b1645d6a28cb083b55.php 第 139 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008329s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008361s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000586s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000639s ]
+
+[ 2019-06-04T22:33:07+08:00 ] ::1 /MyApp/blogBackend/Home/Manage/%E6%97%A0%E6%95%B0%E6%8D%AE?_=1559658787188
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000738s ]
+ERR: 非法操作:无数据
+
+[ 2019-06-04T22:34:38+08:00 ] ::1 /MyApp/blogBackend/Home/AboutBlog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000518s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058322s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058416s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000923s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000975s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000823s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000868s ]
+
+[ 2019-06-04T22:34:38+08:00 ] ::1 /MyApp/blogBackend/Home/AboutBlog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000650s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013062s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013164s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000552s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000582s ]
+
+[ 2019-06-04T22:34:38+08:00 ] ::1 /MyApp/blogBackend/Home/AboutBlog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000502s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010790s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010856s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000530s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000589s ]
+
+[ 2019-06-04T22:34:39+08:00 ] ::1 /MyApp/blogBackend/Home/Manage/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001542s ]
+NOTIC: [8] Undefined index: type F:\phpDemo\MyApp\blogBackend\Application\Home\Controller\ManageController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `wenzhang` [ RunTime:0.0641s ]
+SQL: SELECT `id`,`title`,`bigclass`,`smclass`,`time`,`see`,`zan` FROM `wenzhang`  [ RunTime:0.0137s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+NOTIC: [8] Undefined index: type F:\phpDemo\MyApp\blogBackend\Application\Runtime\Cache\Home\d8a0e8853bd242b1645d6a28cb083b55.php 第 139 行.
+NOTIC: [8] Undefined index: type F:\phpDemo\MyApp\blogBackend\Application\Runtime\Cache\Home\d8a0e8853bd242b1645d6a28cb083b55.php 第 139 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.163239s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.163267s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001336s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001375s ]
+
+[ 2019-06-04T22:34:39+08:00 ] ::1 /MyApp/blogBackend/Home/Manage/%E6%97%A0%E6%95%B0%E6%8D%AE?_=1559658879803
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000807s ]
+ERR: 非法操作:无数据
+
+[ 2019-06-04T22:34:44+08:00 ] ::1 /MyApp/blogBackend/Home/AboutBlog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000762s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007367s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007448s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000776s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000952s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001007s ]
+
+[ 2019-06-04T22:34:46+08:00 ] ::1 /MyApp/blogBackend/Home/Manage/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000683s ]
+NOTIC: [8] Undefined index: type F:\phpDemo\MyApp\blogBackend\Application\Home\Controller\ManageController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `wenzhang` [ RunTime:0.0691s ]
+SQL: SELECT `id`,`title`,`bigclass`,`smclass`,`time`,`see`,`zan` FROM `wenzhang`  [ RunTime:0.0159s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+NOTIC: [8] Undefined index: type F:\phpDemo\MyApp\blogBackend\Application\Runtime\Cache\Home\d8a0e8853bd242b1645d6a28cb083b55.php 第 139 行.
+NOTIC: [8] Undefined index: type F:\phpDemo\MyApp\blogBackend\Application\Runtime\Cache\Home\d8a0e8853bd242b1645d6a28cb083b55.php 第 139 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009329s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009363s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000492s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001087s ]
+
+[ 2019-06-04T22:34:46+08:00 ] ::1 /MyApp/blogBackend/Home/Manage/%E6%97%A0%E6%95%B0%E6%8D%AE?_=1559658886865
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000760s ]
+ERR: 非法操作:无数据
+
+[ 2019-06-04T22:34:49+08:00 ] ::1 /MyApp/blogBackend/Home/MoodManage/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000619s ]
+SQL: SHOW COLUMNS FROM `mood` [ RunTime:0.3642s ]
+SQL: SELECT * FROM `mood`  [ RunTime:0.0029s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000191s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000248s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015636s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015734s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001031s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001107s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002225s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002346s ]
+
+[ 2019-06-04T22:34:49+08:00 ] ::1 /MyApp/blogBackend/Home/MoodManage/%E6%97%A0%E6%95%B0%E6%8D%AE?_=1559658889323
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000704s ]
+ERR: 非法操作:无数据
+
+[ 2019-06-04T22:34:52+08:00 ] ::1 /MyApp/blogBackend/Home/Manage/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+NOTIC: [8] Undefined index: type F:\phpDemo\MyApp\blogBackend\Application\Home\Controller\ManageController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `wenzhang` [ RunTime:0.0719s ]
+SQL: SELECT `id`,`title`,`bigclass`,`smclass`,`time`,`see`,`zan` FROM `wenzhang`  [ RunTime:0.0188s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+NOTIC: [8] Undefined index: type F:\phpDemo\MyApp\blogBackend\Application\Runtime\Cache\Home\d8a0e8853bd242b1645d6a28cb083b55.php 第 139 行.
+NOTIC: [8] Undefined index: type F:\phpDemo\MyApp\blogBackend\Application\Runtime\Cache\Home\d8a0e8853bd242b1645d6a28cb083b55.php 第 139 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013287s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013327s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000593s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000792s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000833s ]
+
+[ 2019-06-04T22:34:52+08:00 ] ::1 /MyApp/blogBackend/Home/Manage/%E6%97%A0%E6%95%B0%E6%8D%AE?_=1559658892324
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000710s ]
+ERR: 非法操作:无数据
+
+[ 2019-06-04T22:38:35+08:00 ] ::1 /MyApp/blogBackend/Home/Manage/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000830s ]
+NOTIC: [8] Undefined index: type F:\phpDemo\MyApp\blogBackend\Application\Home\Controller\ManageController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `wenzhang` [ RunTime:0.0520s ]
+SQL: SELECT `id`,`title`,`bigclass`,`smclass`,`time`,`see`,`zan` FROM `wenzhang`  [ RunTime:0.0105s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+NOTIC: [8] Undefined index: type F:\phpDemo\MyApp\blogBackend\Application\Runtime\Cache\Home\d8a0e8853bd242b1645d6a28cb083b55.php 第 139 行.
+NOTIC: [8] Undefined index: type F:\phpDemo\MyApp\blogBackend\Application\Runtime\Cache\Home\d8a0e8853bd242b1645d6a28cb083b55.php 第 139 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015667s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015697s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000649s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000681s ]
+
+[ 2019-06-04T22:38:35+08:00 ] ::1 /MyApp/blogBackend/Home/Manage/%E6%97%A0%E6%95%B0%E6%8D%AE?_=1559659115799
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+ERR: 非法操作:无数据
+
+[ 2019-06-04T22:38:57+08:00 ] ::1 /MyApp/blogBackend/Home/Index/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+SQL: SHOW COLUMNS FROM `broken` [ RunTime:0.2891s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `broken` LIMIT 1   [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `wenzhang` [ RunTime:0.0055s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenzhang` WHERE ( bigclass="前端开发" ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenzhang` WHERE ( bigclass="全栈开发" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `mood` [ RunTime:0.0185s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mood` LIMIT 1   [ RunTime:0.0093s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.079036s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.079104s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000642s ]
+
+[ 2019-06-04T22:39:03+08:00 ] ::1 /MyApp/blogBackend/Home/MoodManage/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000577s ]
+SQL: SHOW COLUMNS FROM `mood` [ RunTime:0.0847s ]
+SQL: SELECT * FROM `mood`  [ RunTime:0.0215s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060769s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060820s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.014557s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014604s ]
+
+[ 2019-06-04T22:39:03+08:00 ] ::1 /MyApp/blogBackend/Home/MoodManage/%E6%97%A0%E6%95%B0%E6%8D%AE?_=1559659143343
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000702s ]
+ERR: 非法操作:无数据
+
+[ 2019-06-04T22:39:05+08:00 ] ::1 /MyApp/blogBackend/Home/Manage/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000711s ]
+NOTIC: [8] Undefined index: type F:\phpDemo\MyApp\blogBackend\Application\Home\Controller\ManageController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `wenzhang` [ RunTime:0.0641s ]
+SQL: SELECT `id`,`title`,`bigclass`,`smclass`,`time`,`see`,`zan` FROM `wenzhang`  [ RunTime:0.0082s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000235s ]
+NOTIC: [8] Undefined index: type F:\phpDemo\MyApp\blogBackend\Application\Runtime\Cache\Home\d8a0e8853bd242b1645d6a28cb083b55.php 第 139 行.
+NOTIC: [8] Undefined index: type F:\phpDemo\MyApp\blogBackend\Application\Runtime\Cache\Home\d8a0e8853bd242b1645d6a28cb083b55.php 第 139 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030143s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030201s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000871s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000955s ]
+
+[ 2019-06-04T22:39:05+08:00 ] ::1 /MyApp/blogBackend/Home/Manage/%E6%97%A0%E6%95%B0%E6%8D%AE?_=1559659145339
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000519s ]
+ERR: 非法操作:无数据
+
+[ 2019-06-04T22:39:07+08:00 ] ::1 /MyApp/blogBackend/Home/AboutBlog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010967s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011010s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000576s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000612s ]
+
+[ 2019-06-04T22:39:10+08:00 ] ::1 /MyApp/blogBackend/Home/Broken/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+SQL: SHOW COLUMNS FROM `broken` [ RunTime:0.0660s ]
+SQL: SELECT * FROM `broken`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009701s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009750s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000579s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000620s ]
+
+[ 2019-06-04T22:39:10+08:00 ] ::1 /MyApp/blogBackend/Home/Broken/%E6%97%A0%E6%95%B0%E6%8D%AE?_=1559659150219
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000433s ]
+ERR: 非法操作:无数据
+
+[ 2019-06-04T22:39:24+08:00 ] ::1 /MyApp/blogBackend/Home/Broken/%E6%97%A0%E6%95%B0%E6%8D%AE?_=1559659150219
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000718s ]
+ERR: 非法操作:无数据
+
+[ 2019-06-04T22:40:41+08:00 ] ::1 /MyApp/blogBackend/Home/Broken/%E6%97%A0%E6%95%B0%E6%8D%AE?_=1559659150219
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000928s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000975s ]
+ERR: 非法操作:无数据
+
+[ 2019-06-04T22:42:06+08:00 ] ::1 /MyApp/blogBackend/Home/FrontEnd/index?type=html5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000671s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009588s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009633s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000641s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000851s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000892s ]
+
+[ 2019-06-04T22:42:53+08:00 ] ::1 /MyApp/blogBackend/Home/FrontEnd/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000520s ]
+SQL: SHOW COLUMNS FROM `wenzhang` [ RunTime:0.0600s ]
+SQL: INSERT INTO `wenzhang` (`title`,`bigclass`,`smclass`,`content`,`img`,`time`,`see`,`zan`) VALUES ('h5离线存储','前端开发','html5','<p>哈哈哈哈哈哈</p>','data:image/png;base64,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','2019-6-4','1','1') [ RunTime:0.1889s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000811s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000884s ]
+
+[ 2019-06-04T22:43:11+08:00 ] ::1 /MyApp/blogBackend/Home/Mood/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000428s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009529s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009582s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000696s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000594s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000643s ]
+
+[ 2019-06-04T22:43:16+08:00 ] ::1 /MyApp/blogBackend/Home/AboutBlog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000713s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013383s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013455s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000718s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000770s ]
+
+[ 2019-06-04T22:43:18+08:00 ] ::1 /MyApp/blogBackend/Home/Manage/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000648s ]
+NOTIC: [8] Undefined index: type F:\phpDemo\MyApp\blogBackend\Application\Home\Controller\ManageController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `wenzhang` [ RunTime:0.0852s ]
+SQL: SELECT `id`,`title`,`bigclass`,`smclass`,`time`,`see`,`zan` FROM `wenzhang`  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000244s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000349s ]
+NOTIC: [8] Undefined index: type F:\phpDemo\MyApp\blogBackend\Application\Runtime\Cache\Home\d8a0e8853bd242b1645d6a28cb083b55.php 第 139 行.
+NOTIC: [8] Undefined index: type F:\phpDemo\MyApp\blogBackend\Application\Runtime\Cache\Home\d8a0e8853bd242b1645d6a28cb083b55.php 第 139 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019118s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001595s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001702s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001336s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001446s ]
+
+[ 2019-06-04T22:43:18+08:00 ] ::1 /MyApp/blogBackend/Home/Manage/%E6%97%A0%E6%95%B0%E6%8D%AE?_=1559659398860
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000766s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000750s ]
+ERR: 非法操作:无数据
+
+[ 2019-06-04T22:44:47+08:00 ] ::1 /MyApp/blogBackend/Home/MoodManage/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000783s ]
+SQL: SHOW COLUMNS FROM `mood` [ RunTime:0.0483s ]
+SQL: SELECT * FROM `mood`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008924s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008965s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000532s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000575s ]
+
+[ 2019-06-04T22:44:47+08:00 ] ::1 /MyApp/blogBackend/Home/MoodManage/%E6%97%A0%E6%95%B0%E6%8D%AE?_=1559659487525
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000715s ]
+ERR: 非法操作:无数据
+
+[ 2019-06-04T22:45:37+08:00 ] ::1 /MyApp/blogBackend/Home/MoodManage/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+SQL: SHOW COLUMNS FROM `mood` [ RunTime:0.0479s ]
+SQL: SELECT * FROM `mood`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008539s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000606s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000640s ]
+
+[ 2019-06-04T22:45:38+08:00 ] ::1 /MyApp/blogBackend/Home/MoodManage/%E6%97%A0%E6%95%B0%E6%8D%AE?_=1559659538087
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+ERR: 非法操作:无数据
+
+[ 2019-06-04T22:45:39+08:00 ] ::1 /MyApp/blogBackend/Home/MoodManage/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+SQL: SHOW COLUMNS FROM `mood` [ RunTime:0.0115s ]
+SQL: SELECT * FROM `mood`  [ RunTime:0.0164s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008645s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008688s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000520s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000552s ]
+
+[ 2019-06-04T22:45:39+08:00 ] ::1 /MyApp/blogBackend/Home/MoodManage/%E6%97%A0%E6%95%B0%E6%8D%AE?_=1559659539405
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000747s ]
+ERR: 非法操作:无数据
+
+[ 2019-06-04T22:45:40+08:00 ] ::1 /MyApp/blogBackend/Home/MoodManage/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+SQL: SHOW COLUMNS FROM `mood` [ RunTime:0.0609s ]
+SQL: SELECT * FROM `mood`  [ RunTime:0.0183s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000233s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010798s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010861s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000650s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000692s ]
+
+[ 2019-06-04T22:45:40+08:00 ] ::1 /MyApp/blogBackend/Home/MoodManage/%E6%97%A0%E6%95%B0%E6%8D%AE?_=1559659540479
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000502s ]
+ERR: 非法操作:无数据
+
+[ 2019-06-04T22:46:18+08:00 ] ::1 /MyApp/blogBackend/Home/MoodManage/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000497s ]
+SQL: SHOW COLUMNS FROM `mood` [ RunTime:0.0536s ]
+SQL: SELECT * FROM `mood`  [ RunTime:0.0086s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000371s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000551s ]
+NOTIC: [8] Undefined variable: mood F:\phpDemo\MyApp\blogBackend\Application\Runtime\Cache\Home\813d22340d3d49d831b7b87fa73364c1.php 第 175 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026570s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026691s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000770s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000815s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000933s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000989s ]
+
+[ 2019-06-04T22:46:19+08:00 ] ::1 /MyApp/blogBackend/Home/MoodManage/%E6%97%A0%E6%95%B0%E6%8D%AE?_=1559659579040
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+ERR: 非法操作:无数据
+
+[ 2019-06-04T22:46:21+08:00 ] ::1 /MyApp/blogBackend/Home/MoodManage/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000592s ]
+SQL: SHOW COLUMNS FROM `mood` [ RunTime:0.0371s ]
+SQL: SELECT * FROM `mood`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+NOTIC: [8] Undefined variable: mood F:\phpDemo\MyApp\blogBackend\Application\Runtime\Cache\Home\813d22340d3d49d831b7b87fa73364c1.php 第 175 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008209s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008241s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000550s ]
+
+[ 2019-06-04T22:46:21+08:00 ] ::1 /MyApp/blogBackend/Home/MoodManage/%E6%97%A0%E6%95%B0%E6%8D%AE?_=1559659581859
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+ERR: 非法操作:无数据
+
+[ 2019-06-04T22:46:36+08:00 ] ::1 /MyApp/blogBackend/Home/MoodManage/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+NOTIC: [8] Undefined variable: mood F:\phpDemo\MyApp\blogBackend\Application\Runtime\Cache\Home\813d22340d3d49d831b7b87fa73364c1.php 第 175 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010391s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010428s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000565s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000596s ]
+
+[ 2019-06-04T22:46:36+08:00 ] ::1 /MyApp/blogBackend/Home/MoodManage/%E6%97%A0%E6%95%B0%E6%8D%AE?_=1559659596374
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+ERR: 非法操作:无数据
+
+[ 2019-06-04T22:46:37+08:00 ] ::1 /MyApp/blogBackend/Home/MoodManage/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000622s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000197s ]
+NOTIC: [8] Undefined variable: mood F:\phpDemo\MyApp\blogBackend\Application\Runtime\Cache\Home\813d22340d3d49d831b7b87fa73364c1.php 第 175 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010041s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010074s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000658s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000689s ]
+
+[ 2019-06-04T22:46:37+08:00 ] ::1 /MyApp/blogBackend/Home/MoodManage/%E6%97%A0%E6%95%B0%E6%8D%AE?_=1559659597215
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000703s ]
+ERR: 非法操作:无数据
+
+[ 2019-06-04T22:46:37+08:00 ] ::1 /MyApp/blogBackend/Home/MoodManage/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000626s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+NOTIC: [8] Undefined variable: mood F:\phpDemo\MyApp\blogBackend\Application\Runtime\Cache\Home\813d22340d3d49d831b7b87fa73364c1.php 第 175 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010962s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011024s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000598s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000647s ]
+
+[ 2019-06-04T22:46:37+08:00 ] ::1 /MyApp/blogBackend/Home/MoodManage/%E6%97%A0%E6%95%B0%E6%8D%AE?_=1559659597899
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000700s ]
+ERR: 非法操作:无数据
+
+[ 2019-06-04T22:46:37+08:00 ] ::1 /MyApp/blogBackend/Home/MoodManage/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000721s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+NOTIC: [8] Undefined variable: mood F:\phpDemo\MyApp\blogBackend\Application\Runtime\Cache\Home\813d22340d3d49d831b7b87fa73364c1.php 第 175 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010856s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010918s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000656s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000697s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000624s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000678s ]
+
+[ 2019-06-04T22:46:38+08:00 ] ::1 /MyApp/blogBackend/Home/MoodManage/%E6%97%A0%E6%95%B0%E6%8D%AE?_=1559659598182
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000653s ]
+ERR: 非法操作:无数据
+
+[ 2019-06-04T22:46:38+08:00 ] ::1 /MyApp/blogBackend/Home/MoodManage/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000818s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+NOTIC: [8] Undefined variable: mood F:\phpDemo\MyApp\blogBackend\Application\Runtime\Cache\Home\813d22340d3d49d831b7b87fa73364c1.php 第 175 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013274s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013322s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000680s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000735s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001230s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001312s ]
+
+[ 2019-06-04T22:46:38+08:00 ] ::1 /MyApp/blogBackend/Home/MoodManage/%E6%97%A0%E6%95%B0%E6%8D%AE?_=1559659598445
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000679s ]
+ERR: 非法操作:无数据
+
+[ 2019-06-04T22:48:34+08:00 ] ::1 /MyApp/blogBackend/Home/MoodManage/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+SQL: SHOW COLUMNS FROM `mood` [ RunTime:0.0371s ]
+SQL: SELECT * FROM `mood`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009098s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009146s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000481s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000511s ]
+
+[ 2019-06-04T22:48:35+08:00 ] ::1 /MyApp/blogBackend/Home/MoodManage/%E6%97%A0%E6%95%B0%E6%8D%AE?_=1559659715026
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000728s ]
+ERR: 非法操作:无数据
+
+[ 2019-06-04T22:48:36+08:00 ] ::1 /MyApp/blogBackend/Home/MoodManage/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+SQL: SHOW COLUMNS FROM `mood` [ RunTime:0.0503s ]
+SQL: SELECT * FROM `mood`  [ RunTime:0.0068s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013887s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013942s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000680s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000722s ]
+
+[ 2019-06-04T22:48:36+08:00 ] ::1 /MyApp/blogBackend/Home/MoodManage/%E6%97%A0%E6%95%B0%E6%8D%AE?_=1559659716477
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+ERR: 非法操作:无数据
+
+[ 2019-06-04T22:50:21+08:00 ] ::1 /MyApp/blogBackend/Home/MoodManage/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000654s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000634s ]
+SQL: SHOW COLUMNS FROM `mood` [ RunTime:0.0377s ]
+SQL: SELECT * FROM `mood`  [ RunTime:0.0153s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000211s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000275s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023225s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023297s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001246s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001315s ]
+
+[ 2019-06-04T22:50:22+08:00 ] ::1 /MyApp/blogBackend/Home/MoodManage/%E6%97%A0%E6%95%B0%E6%8D%AE?_=1559659822197
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000878s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000716s ]
+ERR: 非法操作:无数据
+
+[ 2019-06-04T22:51:00+08:00 ] ::1 /MyApp/blogBackend/Home/MoodManage/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000548s ]
+SQL: SHOW COLUMNS FROM `mood` [ RunTime:0.0434s ]
+SQL: SELECT * FROM `mood`  [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017839s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017941s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000597s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000632s ]
+
+[ 2019-06-04T22:51:01+08:00 ] ::1 /MyApp/blogBackend/Home/MoodManage/%E6%97%A0%E6%95%B0%E6%8D%AE?_=1559659861175
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+ERR: 非法操作:无数据
+
+[ 2019-06-04T22:53:23+08:00 ] ::1 /MyApp/blogBackend/Home/MoodManage/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000842s ]
+SQL: SHOW COLUMNS FROM `mood` [ RunTime:0.4011s ]
+SQL: SELECT * FROM `mood`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011586s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011660s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000646s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000882s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000953s ]
+
+[ 2019-06-04T22:53:24+08:00 ] ::1 /MyApp/blogBackend/Home/MoodManage/%E6%97%A0%E6%95%B0%E6%8D%AE?_=1559660003993
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000703s ]
+ERR: 非法操作:无数据
+
+[ 2019-06-04T22:54:18+08:00 ] ::1 /MyApp/blogBackend/Home/MoodManage/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000653s ]
+SQL: SHOW COLUMNS FROM `mood` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mood`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+NOTIC: [8] Array to string conversion F:\phpDemo\MyApp\blogBackend\Application\Runtime\Cache\Home\813d22340d3d49d831b7b87fa73364c1.php 第 230 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008010s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008047s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000695s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000755s ]
+
+[ 2019-06-04T22:54:18+08:00 ] ::1 /MyApp/blogBackend/Home/MoodManage/%E6%97%A0%E6%95%B0%E6%8D%AE?_=1559660058878
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+ERR: 非法操作:无数据
+
+[ 2019-06-04T22:54:40+08:00 ] ::1 /MyApp/blogBackend/Home/MoodManage/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000359s ]
+SQL: SHOW COLUMNS FROM `mood` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `mood`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008692s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008751s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001577s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001650s ]
+
+[ 2019-06-04T22:54:40+08:00 ] ::1 /MyApp/blogBackend/Home/MoodManage/%E6%97%A0%E6%95%B0%E6%8D%AE?_=1559660080797
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000574s ]
+ERR: 非法操作:无数据
+
+[ 2019-06-04T22:55:10+08:00 ] ::1 /MyApp/blogBackend/Home/MoodManage/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000713s ]
+SQL: SHOW COLUMNS FROM `mood` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `mood`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016792s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016856s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000712s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000756s ]
+
+[ 2019-06-04T22:55:11+08:00 ] ::1 /MyApp/blogBackend/Home/MoodManage/%E6%97%A0%E6%95%B0%E6%8D%AE?_=1559660110985
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000695s ]
+ERR: 非法操作:无数据
+
+[ 2019-06-04T22:56:02+08:00 ] ::1 /MyApp/blogBackend/Home/MoodManage/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000710s ]
+SQL: SHOW COLUMNS FROM `mood` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `mood`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+NOTIC: [8] Array to string conversion F:\phpDemo\MyApp\blogBackend\Application\Runtime\Cache\Home\813d22340d3d49d831b7b87fa73364c1.php 第 230 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008146s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008174s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001088s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001124s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001227s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001362s ]
+
+[ 2019-06-04T22:56:02+08:00 ] ::1 /MyApp/blogBackend/Home/MoodManage/%E6%97%A0%E6%95%B0%E6%8D%AE?_=1559660162628
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000671s ]
+ERR: 非法操作:无数据
+
+[ 2019-06-04T22:57:39+08:00 ] ::1 /MyApp/blogBackend/Home/MoodManage/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000562s ]
+SQL: SHOW COLUMNS FROM `mood` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `mood`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+NOTIC: [8] Array to string conversion F:\phpDemo\MyApp\blogBackend\Application\Runtime\Cache\Home\813d22340d3d49d831b7b87fa73364c1.php 第 230 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017861s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017914s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000874s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000957s ]
+
+[ 2019-06-04T22:57:40+08:00 ] ::1 /MyApp/blogBackend/Home/MoodManage/%E6%97%A0%E6%95%B0%E6%8D%AE?_=1559660260093
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000854s ]
+ERR: 非法操作:无数据
+
+[ 2019-06-04T22:59:41+08:00 ] ::1 /MyApp/blogBackend/Home/MoodManage/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000655s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000492s ]
+SQL: SHOW COLUMNS FROM `mood` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `mood`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+NOTIC: [8] Array to string conversion F:\phpDemo\MyApp\blogBackend\Application\Runtime\Cache\Home\813d22340d3d49d831b7b87fa73364c1.php 第 230 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009477s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009515s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000644s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000678s ]
+
+[ 2019-06-04T22:59:42+08:00 ] ::1 /MyApp/blogBackend/Home/MoodManage/%E6%97%A0%E6%95%B0%E6%8D%AE?_=1559660382114
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000818s ]
+ERR: 非法操作:无数据
+
+[ 2019-06-04T23:00:02+08:00 ] ::1 /MyApp/blogBackend/Home/MoodManage/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+SQL: SHOW COLUMNS FROM `mood` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `mood`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000219s ]
+NOTIC: [8] Array to string conversion F:\phpDemo\MyApp\blogBackend\Application\Runtime\Cache\Home\813d22340d3d49d831b7b87fa73364c1.php 第 230 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022427s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022456s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000629s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000675s ]
+
+[ 2019-06-04T23:00:02+08:00 ] ::1 /MyApp/blogBackend/Home/MoodManage/%E6%97%A0%E6%95%B0%E6%8D%AE?_=1559660402967
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+ERR: 非法操作:无数据
+
+[ 2019-06-04T23:06:51+08:00 ] ::1 /MyApp/blogBackend/Home/MoodManage/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000719s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000969s ]
+SQL: SHOW COLUMNS FROM `mood` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `mood`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000213s ]
+NOTIC: [8] Array to string conversion F:\phpDemo\MyApp\blogBackend\Application\Runtime\Cache\Home\813d22340d3d49d831b7b87fa73364c1.php 第 230 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011159s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011205s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000845s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000906s ]
+
+[ 2019-06-04T23:06:58+08:00 ] ::1 /MyApp/blogBackend/Home/Manage/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000476s ]
+NOTIC: [8] Undefined index: type F:\phpDemo\MyApp\blogBackend\Application\Home\Controller\ManageController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `wenzhang` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`title`,`bigclass`,`smclass`,`time`,`see`,`zan` FROM `wenzhang`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+NOTIC: [8] Undefined index: type F:\phpDemo\MyApp\blogBackend\Application\Runtime\Cache\Home\d8a0e8853bd242b1645d6a28cb083b55.php 第 139 行.
+NOTIC: [8] Undefined index: type F:\phpDemo\MyApp\blogBackend\Application\Runtime\Cache\Home\d8a0e8853bd242b1645d6a28cb083b55.php 第 139 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007920s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007948s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000887s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000958s ]
+
+[ 2019-06-04T23:06:59+08:00 ] ::1 /MyApp/blogBackend/Home/Manage/%E6%97%A0%E6%95%B0%E6%8D%AE?_=1559660819219
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000599s ]
+ERR: 非法操作:无数据
+
+[ 2019-06-04T23:07:01+08:00 ] ::1 /MyApp/blogBackend/Home/Manage/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000577s ]
+NOTIC: [8] Undefined index: type F:\phpDemo\MyApp\blogBackend\Application\Home\Controller\ManageController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `wenzhang` [ RunTime:0.0015s ]
+SQL: SELECT `id`,`title`,`bigclass`,`smclass`,`time`,`see`,`zan` FROM `wenzhang`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+NOTIC: [8] Undefined index: type F:\phpDemo\MyApp\blogBackend\Application\Runtime\Cache\Home\d8a0e8853bd242b1645d6a28cb083b55.php 第 139 行.
+NOTIC: [8] Undefined index: type F:\phpDemo\MyApp\blogBackend\Application\Runtime\Cache\Home\d8a0e8853bd242b1645d6a28cb083b55.php 第 139 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013202s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013252s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000628s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000680s ]
+
+[ 2019-06-04T23:07:01+08:00 ] ::1 /MyApp/blogBackend/Home/Manage/%E6%97%A0%E6%95%B0%E6%8D%AE?_=1559660821677
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000362s ]
+ERR: 非法操作:无数据
+
+[ 2019-06-04T23:07:14+08:00 ] ::1 /MyApp/blogBackend/Home/Manage/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+NOTIC: [8] Undefined index: type F:\phpDemo\MyApp\blogBackend\Application\Home\Controller\ManageController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `wenzhang` [ RunTime:0.0008s ]
+SQL: SELECT `id`,`title`,`bigclass`,`smclass`,`time`,`see`,`zan` FROM `wenzhang`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+NOTIC: [8] Undefined index: type F:\phpDemo\MyApp\blogBackend\Application\Runtime\Cache\Home\d8a0e8853bd242b1645d6a28cb083b55.php 第 139 行.
+NOTIC: [8] Undefined index: type F:\phpDemo\MyApp\blogBackend\Application\Runtime\Cache\Home\d8a0e8853bd242b1645d6a28cb083b55.php 第 139 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009206s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009240s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000841s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000895s ]
+
+[ 2019-06-04T23:07:23+08:00 ] ::1 /MyApp/blogBackend/Home/AboutBlog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000767s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009872s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009938s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000690s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000756s ]
+
+[ 2019-06-04T23:07:24+08:00 ] ::1 /MyApp/blogBackend/Home/Broken/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+SQL: SHOW COLUMNS FROM `broken` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `broken`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007949s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000880s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000947s ]
+
+[ 2019-06-04T23:07:25+08:00 ] ::1 /MyApp/blogBackend/Home/Broken/%E6%97%A0%E6%95%B0%E6%8D%AE?_=1559660845031
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000678s ]
+ERR: 非法操作:无数据
+
+[ 2019-06-04T23:07:48+08:00 ] ::1 /MyApp/blogBackend/Home/Broken/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000697s ]
+SQL: SHOW COLUMNS FROM `broken` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `broken`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008642s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008690s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000598s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000637s ]
+

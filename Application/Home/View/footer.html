@@ -1,0 +1,33 @@
+</div>
+</div>
+</div>
+<div id="footer">
+    2019 &copy; 逐梦后台管理系统.
+</div>
+<script src="__PUBLIC__/js/jquery-1.8.3.min.js"></script>
+<script src="__PUBLIC__/js/jquery.slimscroll.min.js"></script>
+<script src="__PUBLIC__/js/bootstrap.min.js"></script>
+<script src="__PUBLIC__/js/bootstrap-fileupload.js"></script>
+<script src="__PUBLIC__/js/common-scripts.js"></script>
+<script src="__PUBLIC__/dist/summernote.js"></script>
+<script src="__PUBLIC__/dist/lang/summernote-zh-CN.js"></script>
+<script src="__PUBLIC__/layer/layer.js?2"></script>
+<script>
+    var type = $('.widget-title').children('h4').html();
+    $('.'+type).css('color',"#fff")
+    var tag = window.location.href.split('/')[6];
+    $('.'+tag).parents('.sub-menu').addClass('active');
+    if($('.'+tag).text() == type){
+        $(this).addClass('active');
+    }
+    //富文本
+    $(function(){
+        $('.summernote').summernote({
+            height: 200,
+            tabsize: 2,
+            lang: 'zh-CN'
+        });
+    });
+</script>
+</body>
+</html>

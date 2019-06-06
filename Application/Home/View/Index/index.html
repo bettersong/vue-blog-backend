@@ -1,0 +1,122 @@
+<include file="./Application/Home/View/header.html" />
+    <div id="main-content">
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="span12">
+
+                    <ul class="breadcrumb" style="margin-top:30px;">
+                        <li>
+                            <a href="#">首页</a>
+                            <span class="divider">/</span>
+                        </li>
+                        <li class="active">
+                            控制台
+                        </li>
+                        <li class="pull-right search-wrap">
+                            <form action="search_result.html" class="hidden-phone">
+                                <div class="input-append search-input-area">
+                                    <input class="" id="appendedInputButton" type="text">
+                                    <button class="btn" type="button"><i class="iconfont icon-sousuo1"></i> </button>
+                                </div>
+                            </form>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row-fluid">
+                <div class="metro-nav">
+                    <div class="metro-nav-block nav-block-orange">
+                        <a data-original-title="" href="__ROOT__/Home/AboutBlog/index">
+                            <i class="iconfont icon-wodered"></i>
+                            <div class="info">321</div>
+                            <div class="status">博主介绍</div>
+                        </a>
+                    </div>
+                    <div class="metro-nav-block nav-olive double">
+                        <a data-original-title="" href="__ROOT__/Home/Manage/index?type=frontend">
+                            <i class="iconfont icon-H"></i>
+                            <div class="info">{$frontend}</div>
+                            <div class="status">前端开发</div>
+                        </a>
+                    </div>
+                    <div class="metro-nav-block nav-block-yellow">
+                        <a data-original-title="" href="__ROOT__/Home/Broken/index">
+                            <i class="iconfont icon-weibiaoti2fuzhi06"></i>
+                            <div class="info">{$broken}</div>
+                            <div class="status">碎言碎语</div>
+                        </a>
+                    </div>
+                    <div class="metro-nav-block nav-block-green double">
+                        <a data-original-title="" href="__ROOT__/Home/Manage/index?type=fullstack">
+                            <i class="iconfont icon-Nodejs"></i>
+                            <div class="info">{$fullstack}</div>
+                            <div class="status">全栈开发</div>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="metro-nav">
+                    <div class="metro-nav-block nav-block-red double">
+                        <a data-original-title="" href="#">
+                            <i class="iconfont icon-huo2"></i>
+                            <div class="info">288</div>
+                            <div class="status">更新</div>
+                        </a>
+                    </div>
+                    <div class="metro-nav-block nav-light-purple">
+                        <a data-original-title="" href="#">
+                            <i class="iconfont icon-classify-red"></i>
+                            <div class="info">29</div>
+                            <div class="status">作品案例</div>
+                        </a>
+                    </div>
+                    <div class="metro-nav-block nav-light-blue double">
+                        <a data-original-title="" href="__ROOT__/Home/MoodManage/index">
+                            <i class="iconfont icon-xiepinglun"></i>
+                            <div class="info">{$mood}</div>
+                            <div class="status">心情小镇</div>
+                        </a>
+                    </div>
+                    <div class="metro-nav-block nav-light-green">
+                        <a data-original-title="" href="#">
+                            <i class="iconfont icon-huahui"></i>
+                            <div class="info">123</div>
+                            <div class="status">关于博客</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="space10"></div>
+            </div>
+            <div class="row-fluid">
+                <div class="span6">
+                    <div class="widget ">
+                        <div class="widget-title">
+                            <h4>饼状图</h4>
+                        </div>
+                        <div class="widget-body">
+                            <div class="text-center">
+                                <canvas id="doughnut" height="300" width="400"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="span6">
+                    <div class="widget green">
+                        <div class="widget-title">
+                            <h4> 曲线图</h4>
+                        </div>
+                        <div class="widget-body">
+                            <div class="text-center">
+                                <canvas id="line" height="300" width="450"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<include file="./Application/Home/View/footer.html" />
+<script>
+    var username = '{$_SESSION["userinfo"]["user"]}';
+    console.log(username);
+    //console.log({flag});
+    //layer.msg('欢迎'+username+',您现在可以操作本博客后台了！');
+</script>

@@ -1,0 +1,125 @@
+[ 2019-06-06T09:20:46+08:00 ] ::1 /MyApp/blogBackend/Home/Index/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.049677s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020981s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021023s ]
+SQL: SHOW COLUMNS FROM `broken` [ RunTime:0.0522s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `broken` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wenzhang` [ RunTime:0.0508s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenzhang` WHERE ( bigclass="前端开发" ) LIMIT 1   [ RunTime:0.0413s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenzhang` WHERE ( bigclass="全栈开发" ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `mood` [ RunTime:0.0411s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mood` LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2019-06-06T09:20:46+08:00 ] ::1 /MyApp/blogBackend/Home/Admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000394s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.003127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003180s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057197s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057246s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007880s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007916s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013259s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013294s ]
+
+[ 2019-06-06T09:20:48+08:00 ] ::1 /MyApp/blogBackend/Home/Admin/setLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000401s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0509s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `admin` WHERE ( user='宋瑶' AND password = '123456' ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000901s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000939s ]
+
+[ 2019-06-06T09:20:49+08:00 ] ::1 /MyApp/blogBackend/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+SQL: SHOW COLUMNS FROM `broken` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `broken` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `wenzhang` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenzhang` WHERE ( bigclass="前端开发" ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenzhang` WHERE ( bigclass="全栈开发" ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `mood` [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mood` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.095038s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.095077s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000606s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000640s ]
+
+[ 2019-06-06T09:29:26+08:00 ] ::1 /MyApp/blogBackend/Home/Broken/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000472s ]
+SQL: SHOW COLUMNS FROM `broken` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `broken`  [ RunTime:0.0189s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032114s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032157s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000673s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000712s ]
+
+[ 2019-06-06T09:32:32+08:00 ] ::1 /MyApp/blogBackend/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000526s ]
+SQL: SHOW COLUMNS FROM `broken` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `broken` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wenzhang` [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenzhang` WHERE ( bigclass="前端开发" ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wenzhang` WHERE ( bigclass="全栈开发" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `mood` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mood` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017971s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018049s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000980s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001043s ]
+

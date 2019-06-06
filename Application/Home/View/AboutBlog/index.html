@@ -1,0 +1,124 @@
+<include file="./Application/Home/View/header.html"/>
+<div id="main-content">
+    <div class="container-fluid">
+        <div class="row-fluid">
+            <div class="span12">
+                <ul class="breadcrumb" style="margin-top:30px;">
+                    <li>
+                        <a href="#">关于博客</a>
+                        <span class="divider">/</span>
+                    </li>
+                    <li class="active">
+                        关于博客
+                    </li>
+                    <li class="pull-right search-wrap">
+                        <form action="search_result.html" class="hidden-phone">
+                            <div class="input-append search-input-area">
+                                <input class="" id="appendedInputButton" type="text">
+                                <button class="btn" type="button"><i class="iconfont icon-sousuo1"></i> </button>
+                            </div>
+                        </form>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row-fluid">
+            <div class="span12">
+                <div class="widget yellow">
+                    <div class="widget-title">
+                        <h4>关于博客</h4>
+                    </div>
+                    <div class="widget-body">
+                        <div class="form-horizontal">
+                            <div class="span12">
+                                <div class="span6">
+                            <div class="control-group">
+                                <label class="control-label">博主</label>
+                                <div class="controls">
+                                    <input class="medium name" type="text" value="宋瑶" disabled />
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <label class="control-label">星座</label>
+                                <div class="controls">
+                                    <input class="medium star" type="text" value="狮子座" disabled />
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <label class="control-label">目标城市</label>
+                                <div class="controls">
+                                    <input class="medium city" type="text" value="上海" />
+                                </div>
+                            </div>
+                                </div>
+                                <div class="span6">
+                                    <div class="control-group">
+                                        <label class="control-label">学历</label>
+                                        <div class="controls">
+                                            <input class="medium education" type="text" value="本科" />
+                                        </div>
+                                    </div>
+                                    <div class="control-group">
+                                        <label class="control-label">籍贯</label>
+                                        <div class="controls">
+                                            <input class="medium birthplace" type="text" value="江西宜春" disabled />
+                                        </div>
+                                    </div>
+                                    <div class="control-group">
+                                        <label class="control-label">专业</label>
+                                        <div class="controls">
+                                            <input class="medium profession" type="text" value="软件工程" disabled/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <label class="control-label">博主介绍</label>
+                                <div class="controls">
+                                    <textarea placeholder="介绍一下自己吧..." class="input-xxlarge introduce" rows="5" style="height:200px;"></textarea>
+                                </div>
+                            </div>
+                            <div class="form-actions">
+                                <button type="submit" class="btn btn-primary submit">确定</button>
+                                <button type="button" class="btn btn-warning">取消</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <include file="./Application/Home/View/footer.html" />
+        <script>
+            // layer.msg('有表情地提示', {icon: 5});
+            $('.submit').on('click',function (){
+                var name = $('.name').val();
+                var city = $('.city').val();
+                var education = $('.education').val();
+                var introduce = $('.introduce').val();
+                var birthplace = $('.birthplace').val();
+                var profession = $('.profession').val();
+                $.ajax({
+                    type: 'post',
+                    url:'__ROOT__/Home/AboutBlog/update',
+                    data: {
+                        name: name,
+                        city: city,
+                        birthplace: birthplace,
+                        profession: profession,
+                        education: education,
+                        introduce: introduce
+                    },
+                    success: function(res){
+                        console.log(res);
+                        if(res>0){
+                            layer.alert('提交成功！', {icon: 1});
+                            $('.introduce').val('');
+                        }
+                    },
+                    error: function (err){
+                        console.log(err);
+                        layer.alert(err+'请稍后再试')
+                    }
+                })
+            })
+        </script>
